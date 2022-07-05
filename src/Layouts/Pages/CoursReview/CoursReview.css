@@ -1,0 +1,272 @@
+.cours-review-main-container {
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+}
+
+.cours-review-main-container .cours-review-title {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.cours-review-main-container .cours-review-title .cours-review-main-title {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #000;
+}
+
+.cours-review-main-container .cours-review-title .cours-review-sub-main-title {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #b2b2b2;
+}
+
+.cours-review-main-container .cours-review-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cours-review-main-container .cours-review-body .cours-review-body-left {
+    width: 50%;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-decription {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: sans-serif serif;
+    padding-right: 50px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher
+    .cours-class-teacher-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher
+    .cours-class-teacher-image
+    img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher
+    .cours-class-teacher-name {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #4019a0;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher-review {
+    display: flex;
+    align-items: center;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher-review
+    .cours-class-teacher-review-descripton {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #b2b2b2;
+    margin-left: 10px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-teacher-review
+    .cours-class-teacher-review-star
+    .start-icon {
+    font-size: 20px;
+    color: #ff0;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-completed {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #000;
+    margin: 20px 0;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-container {
+    background-color: #5601e2;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-container
+    .cours-class-shedule-container-text {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #fff;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-container
+    .cours-class-shedule-container-icon {
+    margin: 5px 0 0 5px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-container
+    .cours-class-shedule-container-icon
+    .right-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-heart-icon {
+    display: flex;
+    margin-left: 50px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-heart-icon
+    .heart-icon {
+    color: #5601e2;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-left
+    .cours-class-shedule
+    .cours-class-shedule-heart-icon
+    .cours-class-shedule-save-text {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: sans-serif serif;
+    color: #5601e2;
+}
+
+.cours-review-main-container .cours-review-body .cours-review-body-right {
+    width: 50%;
+    display: flex;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-right
+    .cours-review-body-right-image-right {
+    width: 50%;
+    height: 375px;
+    margin-right: 10px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-right
+    .cours-review-body-right-image-right
+    img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-right
+    .cours-review-body-right-image-left {
+    width: 50%;
+    height: 360px;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-right
+    .cours-review-body-right-image-left
+    img {
+    width: 100%;
+    height: 50%;
+}
+
+.cours-review-main-container
+    .cours-review-body
+    .cours-review-body-right
+    .cours-review-body-right-image-left
+    img:not(:last-child) {
+    margin-bottom: 10px;
+}
